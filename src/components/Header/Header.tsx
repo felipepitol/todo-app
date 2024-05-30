@@ -30,6 +30,7 @@ export function Header({ onAddTask }: Props) {
           placeholder="Adicione uma tarefa"
           onChange={onChangeTitle}
           value={title}
+          required
         />
         <button>
           Criar <PlusCircle size={22} />{" "}
